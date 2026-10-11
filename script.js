@@ -1,61 +1,73 @@
 
+
 const questions = [
   {
-    question: "What does HTML stand for?",
+    question: "Hasil dari 3² + 4² adalah ...",
+    answers: ["12", "25", "49", "14"],
+    correct: 1
+  },
+  {
+    question: "Jika 2x + 6 = 16, nilai x adalah ...",
+    answers: ["3", "4", "5", "6"],
+    correct: 2
+  },
+  {
+    question: "Organ tubuh manusia yang memompa darah adalah ...",
+    answers: ["Paru-paru", "Ginjal", "Jantung", "Hati"],
+    correct: 2
+  },
+  {
+    question: "Proses tumbuhan membuat makanan sendiri disebut ...",
     answers: [
-      "Hyper Text Markup Language",
-      "High Tech Modern Language",
-      "Home Tool Markup Language",
-      "Hyper Transfer Main Link"
+      "Respirasi",
+      "Fotosintesis",
+      "Evaporasi",
+      "Adaptasi"
+    ],
+    correct: 1
+  },
+  {
+    question: "Zat yang memiliki bentuk dan volume tetap adalah ...",
+    answers: ["Gas", "Cair", "Padat", "Uap"],
+    correct: 2
+  },
+  {
+    question: "Kegiatan membeli barang dari luar negeri disebut ...",
+    answers: ["Ekspor", "Impor", "Produksi", "Distribusi"],
+    correct: 1
+  },
+  {
+    question: "ASEAN merupakan organisasi negara-negara di kawasan ...",
+    answers: [
+      "Asia Tenggara",
+      "Asia Timur",
+      "Eropa Barat",
+      "Afrika Utara"
     ],
     correct: 0
   },
   {
-    question: "Which language is used to style a website?",
-    answers: ["Python", "CSS", "Java", "C++"],
+    question: "Gagasan utama dalam sebuah paragraf disebut ...",
+    answers: [
+      "Kalimat penutup",
+      "Ide pokok",
+      "Kata penghubung",
+      "Kalimat tanya"
+    ],
     correct: 1
   },
   {
-    question: "Which language makes a website interactive?",
-    answers: ["HTML", "CSS", "JavaScript", "SQL"],
-    correct: 2
-  },
-  {
-    question: "Which HTML tag creates a link?",
-    answers: ["<p>", "<h1>", "<img>", "<a>"],
-    correct: 3
-  },
-  {
-    question: "Which symbol starts a CSS class selector?",
-    answers: ["#", ".", "@", "&"],
+    question: "Sinonim kata 'cermat' adalah ...",
+    answers: ["Ceroboh", "Teliti", "Lambat", "Ragu"],
     correct: 1
   },
   {
-    question: "Which keyword declares a JavaScript variable?",
-    answers: ["let", "style", "color", "body"],
-    correct: 0
-  },
-  {
-    question: "Which HTML tag displays an image?",
-    answers: ["<image>", "<picture-src>", "<img>", "<photo>"],
+    question: "What is the past form of 'go'?",
+    answers: ["Goed", "Gone", "Went", "Going"],
     correct: 2
-  },
-  {
-    question: "Which value means a true/false value in JavaScript?",
-    answers: ["String", "Boolean", "Number", "Array"],
-    correct: 1
-  },
-  {
-    question: "Which CSS property changes text color?",
-    answers: ["font-size", "background", "color", "text-style"],
-    correct: 2
-  },
-  {
-    question: "Which HTML tag contains the main page content structure?",
-    answers: ["<body>", "<title>", "<head>", "<meta>"],
-    correct: 0
   }
 ];
+
 
 const questionEl = document.getElementById("question");
 const answersEl = document.getElementById("answers");
