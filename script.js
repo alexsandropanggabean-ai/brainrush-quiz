@@ -66,39 +66,6 @@ const questions = [
     answers: ["Goed", "Gone", "Went", "Going"],
     correct: 2
   }
-  {
-    question: "organ dalam proses inspirasi",
-    answers: [
-      "bronkiolus alveolus bronkus trakea laring faring hidung",
-      "hidung faring laring trakea bronkus bronkiolus alveolus",
-      "mulut kerongkongan lambung usus besar usus halus anus",
-      "jantung pembuluh darah keseluruh tubuh"
-    ],
-    correct: 1
-  },
-  {
-    question: "³√1331",
-    answers: ["11", "10", "81", "12"],
-    correct: 0
-  },
-  {
-    question: "konstitusi terbagi dua jenis sebutkan satu jenis konstitusi",
-    answers: ["UUD", "Hukum agama", "konstitusi tertulis", "aturan sekolah"],
-    correct: 2
-  },
-  {
-    question: "what the meaning of WEATHER",
-    answers: ["Cuaca", "langit", "ayam", "sapi"],
-    correct: 0
-  },
-  {
-    question: "siapa crush alek",
-    answers: ["martha", "alenta", "nutri", "arefa"],
-    correct: [0,1,2,3]
-  },
-  {
-    
-
 ];
 
 
