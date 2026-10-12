@@ -1,4 +1,4 @@
-
+alert("JavaScript berjalan!");
 
 const questions = [
   {
